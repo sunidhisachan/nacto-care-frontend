@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap");
+
+#home-page {
+  display: flex;
+}
+
+#home-heading {
+  font-family: "Just Another Hand", cursive;
+  font-size: 7.5rem;
+  color: #65CA4C;
+  padding: 0;
+  margin-top : 2rem;
+  margin-bottom : 0rem;
+  margin-left: 2rem;
+}
+
+#home-tagline {
+    margin-top: 0rem;
+    margin-left: 2rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+    width: 60%;
+}
+
+#small-tagline{
+    margin : 0 2rem;
+    font-size: 1.75rem;
+    color: grey;
+}
+
+#blue-page {
+  background-color: #C6DCFF;
+  height: 100vh;
+  flex: 75;
+}
+
+#green-page {
+  background-color: #A5FF8E;
+  height: 100vh;
+  flex: 25;
+}
+
+#book-nurse-btn{
+    margin: 2rem;
+    font-size: 2rem;
+    color: white;
+    background: #65CA4C;
+    border-radius: 1rem;
+    height: 80px;
+    width: 300px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+#stats{
+    display: flex;
+    margin: 0 2rem;
+}
+
+.stat-detail{
+    margin-right: 2rem;
+}
+
+.stat-detail-heading{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.stat-detail-desc{
+    margin-top: 0;
+    font-size: 1.5rem;
+    color : grey;
+}
+
+#nurse-box {
+  width: 20rem; /* 200px converted to rem */
+  height: 25rem; /* 300px converted to rem */
+  background-color: white;
+  position: absolute;
+  right : 25rem;
+  top : 15rem;
+  border-top-left-radius: 10%;
+}
+#nurse-box-img {
+  position: relative;
+  bottom: 5rem; /* 50px converted to rem */
+}
+
+#nurse-img{
+  height: 30rem;
+}
